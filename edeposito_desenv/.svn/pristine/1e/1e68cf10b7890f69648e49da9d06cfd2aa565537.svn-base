@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> Changing passwords </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="Generator" content="Microsoft FrontPage 5.0">
+<meta name="Keywords" content="Passwords, Security, User">
+<link rel="stylesheet" type="text/css" href="44.css">
+</head>
+<body text="#000000" link="#0E2034" alink="#B42821" vlink="#0E2034"><table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinkprevious"><a href="5401.htm" target="_self"><img src="topic_previous.gif" alt="Previous topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Tópico anterior</a></p></td>
+</tr>
+</table>
+<h2 class="heading2">Trocar senhas</h2>
+<p class="bodytext">Os usuários serão apenas solicitado a digitar um nome de 
+usuário e senha ao iniciar o&nbsp; e-Patentes/Depósito Editor se a opção <i><b>
+Habilitar Gestão de Usuários</b></i> for selecionada nas Preferências do 
+Sistema.<br>
+O administrador gera nomes de usuários e senhas padrão para acesso do usuário ao 
+e-Patentes/Depósito. O administrador pode alterar as senhas dos usuários na 
+Gestão de usuários, por exemplo, se um usuário esquecer a senha. Claro, o 
+administrador também pode mudar a sua própria senha <br>
+Todos os usuários que se conectarem ao e-Patentes/Depósito Editor podem mudar 
+sua própria senha.</p>
+<ul class="listaction"><li class="listaction">No e-Patentes/Depósito Editor 
+  selecione <span class="bodyobject">Trocar Senha</span> no menu <i><b>
+  Ferramentas.</b></i></li><li class="listaction">Entre com sua <b>
+  <font color="#800080">Senha anterior</font></b>. </li><li class="listaction">
+  Entre com sua <span class="textentry">Nova senha</span>, e entre novamente 
+  para confirmar.</li><li class="listaction">Clique <strong class="buttons">OK</strong> 
+  para trocar.</li></ul><p class="graphic"><img src="fileman_change_password.jpg" alt="fileman_change_password" height="187" width="274" vspace="0" hspace="0" align="bottom" border="0"></p>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinknext"><a href="1031.htm" target="_self"><img src="topic_next.gif" alt="Next topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Próximo tópico</a></p></td>
+</tr>
+</table>
+
+</body>
+</html>

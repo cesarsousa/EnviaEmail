@@ -1,0 +1,21 @@
+14-03-2013 08:01:15.140 L1 UID: 7 UID = 7 Logged in 
+
+User Information: 
+7=C:\INPI\e-Deposito\brf101\config\brf101.conf
+IP Address: 172.18.14.3
+Windows domain: INPI\jnsouza
+ 
+14-03-2013 08:01:15.468 L1 UID: 7 User login - Administrator, user name - Administrator . 
+14-03-2013 08:01:15.468 L1 UID: 7 software-version: FMMNGR1000, BRF1011026, FM_FOP0205. 
+14-03-2013 08:01:21.859 L1 UID: 7 Could not found Cache variable "SaveFormAsTemplate" 
+14-03-2013 08:01:27.687 L1 UID: 7 UID = 7Logged out 
+14-03-2013 17:55:18.928 L1 UID: 7 UID = 7 Logged in 
+
+User Information: 
+7=C:\INPI\e-Deposito\brf101\config\brf101.conf
+IP Address: 172.18.14.57
+Windows domain: INPI\mantunes
+ 
+14-03-2013 17:55:19.318 L1 UID: 7 User login - Administrator, user name - Administrator . 
+14-03-2013 17:55:19.318 L1 UID: 7 software-version: FMMNGR1000, BRF1011026, FM_FOP0205. 
+14-03-2013 18:04:18.193 L1 UID: 7 UID = 7Logged out 

@@ -1,0 +1,148 @@
+<!--<!DOCTYPE configuration SYSTEM "config.dtd">-->
+<!--
+     this file contains templates which allow an user easy
+     configuration of Fop. Actually normally you don't need this configuration
+     file, but if you need to change configuration, you should
+     always use this file and *not* config.xml.
+     Usage: java org.apache.fop.apps.Fop -c userconfig.xml -fo fo-file -pdf pdf-file
+-->
+<configuration>
+	<entry>
+		<key>version</key>
+		<value>FOP 0.20.5.20</value>
+	</entry>
+	<!-- stream-filter-list provides the default filters that are applied to all
+         stream objects within the PDF file. These are normally used for
+         compression -->
+	<entry role="pdf">
+		<key>stream-filter-list</key>
+		<list>
+			<!-- provides compression using zlib flate (default is on) -->
+			<value>flate</value>
+			<!-- encodes binary data into printable ascii characters (default off)
+                 This provides about a 4:5 expansion of data size -->
+			<value>ascii-85</value>
+			<!-- encodes binary data with hex representation (default off)
+                 This filter is not recommended as it doubles the data size -->
+			<!-- <value>ascii-hex</value> -->
+		</list>
+	</entry>
+	<!-- default values for commandline options -->
+	<!-- suppress all progress information, error message are still displayed -->
+	<entry>
+		<key>quiet</key>
+		<value>false</value>
+	</entry>
+	<!-- sets debug mode on/off; debug mode hasm more progress
+         information and a stacktrace in case of a fatal exception -->
+	<entry>
+		<key>debugMode</key>
+		<value>false</value>
+	</entry>
+	<!-- displays all configuration  settings and then exits -->
+	<entry>
+		<key>dumpConfiguration</key>
+		<value>false</value>
+	</entry>
+	<!--  NOT IMPLEMENTED
+    basedir: normally the base directory is the directory where the fo file is
+             located. if you want to specify your own, uncomment this entry
+    -->
+	<!--
+    -->
+<!--	<entry>
+		<key>baseDir</key>
+		<value/>
+	</entry>-->
+	<!--
+    ************************************************************************
+                            HYPHENATION
+    ************************************************************************
+    -->
+	<!--
+       hyphenation directory
+       if you want to specify your own directory with hyphenation pattern
+       then uncomment the next entry and add the directory name
+    -->
+	<!--
+      <entry>
+        <key>hyphenation-dir</key>
+        <value>/java/xml-fop/hyph</value>
+      </entry>
+    -->
+	<!--
+    ************************************************************************
+      Add fonts here
+    ************************************************************************
+    -->
+	<fonts>
+		<!-- AD:
+        !!! Be aware that FOP 0.20.5.20 transorms metrics-file and embed-file atrribute values to lowercase !!!
+        -->
+		<!-- used by EPO stylesheets -->
+		<font name="Arial Unicode MS" metrics-file="#INSTDIR#\fop\config\fonts\WipoUni.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUni.ttf" kerning="yes">
+			<font-triplet name="arialuni" style="normal" weight="normal"/>
+		</font>
+		<font name="Arial Unicode MS" metrics-file="#INSTDIR#\fop\config\fonts\WipoUniBold.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniBold.ttf" kerning="yes">
+			<font-triplet name="arialuni" style="normal" weight="bold"/>
+		</font>
+		<font name="Arial Unicode MS" metrics-file="#INSTDIR#\fop\config\fonts\WipoUniBoldItalic.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniBoldItalic.ttf" kerning="yes">
+			<font-triplet name="arialuni" style="italic" weight="bold"/>
+		</font>
+		<font name="Arial Unicode MS" metrics-file="#INSTDIR#\fop\config\fonts\WipoUniItalic.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniItalic.ttf" kerning="yes">
+			<font-triplet name="arialuni" style="italic" weight="normal"/>
+		</font>
+		<!-- used by WIPO stylesheets -->
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUni.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUni.ttf" kerning="yes">
+			<font-triplet name="serif" style="normal" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUniBold.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniBold.ttf" kerning="yes">
+			<font-triplet name="serif" style="normal" weight="bold"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUniBoldItalic.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniBoldItalic.ttf" kerning="yes">
+			<font-triplet name="serif" style="italic" weight="bold"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUniItalic.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniItalic.ttf" kerning="yes">
+			<font-triplet name="serif" style="italic" weight="normal"/>
+		</font>
+		<!-- FIEPPlugin specific -->
+		<!--
+		<font metrics-file="#INSTDIR#\fop\config\fonts\times.xml" embed-file="#INSTDIR#\fop\config\fonts\times.ttf" kerning="yes">
+			<font-triplet name="TimesNewRoman" style="normal" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\timesbd.xml" embed-file="#INSTDIR#\fop\config\fonts\timesbd.ttf" kerning="yes">
+			<font-triplet name="TimesNewRoman" style="normal" weight="bold"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\timesi.xml" embed-file="#INSTDIR#\fop\config\fonts\timesi.ttf" kerning="yes">
+			<font-triplet name="TimesNewRoman" style="italic" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\timesbi.xml" embed-file="#INSTDIR#\fop\config\fonts\timesbi.ttf" kerning="yes">
+			<font-triplet name="TimesNewRoman" style="italic" weight="bold"/>
+		</font>
+		-->
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUni.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUni.ttf" kerning="yes">
+			<font-triplet name="WipoUni" style="normal" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUniBold.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniBold.ttf" kerning="yes">
+			<font-triplet name="WipoUni" style="normal" weight="bold"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUniBoldItalic.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniBoldItalic.ttf" kerning="yes">
+			<font-triplet name="WipoUni" style="italic" weight="bold"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\WipoUniItalic.xml" embed-file="#INSTDIR#\fop\config\fonts\WipoUniItalic.ttf" kerning="yes">
+			<font-triplet name="WipoUni" style="italic" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\arial.xml" embed-file="C:\WINDOWS\fonts\arial.ttf" kerning="yes">
+			<font-triplet name="Arial" style="normal" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\arial-bold.xml" embed-file="C:\WINDOWS\fonts\arialbd.ttf" kerning="yes">
+			<font-triplet name="Arial" style="normal" weight="bold"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\arial-italic.xml" embed-file="C:\WINDOWS\fonts\ariali.ttf" kerning="yes">
+			<font-triplet name="Arial" style="italic" weight="normal"/>
+		</font>
+		<font metrics-file="#INSTDIR#\fop\config\fonts\arial-bold-italic.xml" embed-file="C:\WINDOWS\fonts\arialbi.ttf" kerning="yes">
+			<font-triplet name="Arial" style="italic" weight="bold"/>
+		</font>
+	</fonts>
+</configuration>

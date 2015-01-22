@@ -1,0 +1,31 @@
+31-05-2013 10:00:18.505 L1 UID: 3 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf112\config\brf112.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+31-05-2013 10:00:18.755 L1 UID: 3 User login - Administrator, user name - Administrator . 
+31-05-2013 10:00:18.755 L1 UID: 3 software-version: FMMNGR1000, BRF1121010, FM_FOP0205. 
+31-05-2013 10:02:12.090 L1 UID: 3 UID = 3Logged out 
+31-05-2013 10:13:26.613 L1 UID: 3 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf112\config\brf112.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+31-05-2013 10:13:26.874 L1 UID: 3 User login - Administrator, user name - Administrator . 
+31-05-2013 10:13:26.874 L1 UID: 3 software-version: FMMNGR1000, BRF1121010, FM_FOP0205. 
+31-05-2013 10:17:52.656 L1 UID: 3 Could not found Cache variable "SaveFormAsTemplate" 
+31-05-2013 10:17:56.301 L1 UID: 3 UID = 3Logged out 
+13-06-2013 14:33:58.202 L1 UID: 3 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf112\config\brf112.conf
+IP Address: 172.18.14.56
+Windows domain: INPI\cjunior
+ 
+13-06-2013 14:33:58.652 L1 UID: 3 User login - Administrator, user name - Administrator . 
+13-06-2013 14:33:58.652 L1 UID: 3 software-version: FMMNGR1000, BRF1121010, FM_FOP0205. 
+13-06-2013 14:34:20.135 L1 UID: 3 UID = 3Logged out 

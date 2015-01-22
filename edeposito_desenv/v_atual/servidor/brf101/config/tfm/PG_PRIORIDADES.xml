@@ -1,0 +1,17 @@
+<ui-form-page
+    Align="alClient"
+    Ctl3D="true"
+    ParentFont="false"
+    Left="0"
+    Top="0"
+    Width="766"
+    Height="409"
+    Color="-16777201"
+    Name="PG_PRIORIDADES">
+    <font
+        Size="11"
+        FontName="Tahoma">
+    </font>
+    <olf-appRef>
+    </olf-appRef>
+  </ui-form-page>

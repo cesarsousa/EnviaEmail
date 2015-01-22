@@ -1,0 +1,149 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> Folders </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="Generator" content="Microsoft FrontPage 5.0">
+<meta name="Keywords" content="Delete application, Deleting, Folders, Forms, Move application, Moving, Renaming, Sorting, Subfolder, Templates, Trash">
+<link rel="stylesheet" type="text/css" href="44.css">
+</head>
+<body text="#000000" link="#0E2034" alink="#B42821" vlink="#0E2034"><table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinkprevious"><a href="985.htm" target="_self"><img src="topic_previous.gif" alt="Previous topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Tópico anterior</a></p></td>
+</tr>
+</table>
+<h2 class="heading2">Pastas</h2>
+<p class="bodytablenext">O <span class="bodyobject">e-Patentes/Depósito Editor</span>&nbsp;&nbsp; 
+apresenta uma série de pastas especiais do sistema para ajudar a organizar o seu 
+trabalho. Você não pode renomear ou apagar estas pastas do sistema.</p>
+<table width="573" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #757575">
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="45"><p class="tableheading">Ícone</p>
+</td>
+<td style = "border:1px solid #757575;" width="121"><p class="tableheading">
+Pasta do Sistema</p>
+</td>
+<td style = "border:1px solid #757575;" width="407"><p class="tableheading">
+Comentário</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="45"><p class="tablebodytext"><img src="icon_applications.gif" alt="icon_application" height="16" width="18" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="121"><p class="tablebodytext">
+Todas as Petições</p>
+</td>
+<td style = "border:1px solid #757575;" width="407"><p class="tablebodytext">
+Contém uma lista de todos as petições (além de objetos da pasta Lixo).</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="45"><p class="tablebodytext"><img src="icon_folder.gif" alt="icon_folder" height="16" width="18" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="121"><p class="tablebodytext">
+Pasta Padrão</p>
+</td>
+<td style = "border:1px solid #757575;" width="407"><p class="tablebodytext">
+Todos os novos rascunhos são arquivados aqui, a menos que você especifique um 
+local diferente ao salvar.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="45"><p class="tablebodytext"><img src="icon_form.gif" alt="icon_form" height="16" width="18" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="121"><p class="tablebodytext">
+Formulários</p>
+</td>
+<td style = "border:1px solid #757575;" width="407"><p class="tablebodytext">
+Contém os formulários oficiais previstos para os diversos procedimentos que 
+estão disponíveis para o peticionamento eletrônico. A lista de petições 
+disponíveis depende das configurações escolhidas durante a instalação, e das 
+petições já disponibilizadas pelo INPI.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="45"><p class="tablebodytext"><img src="icon_template.gif" alt="icon_templates" height="16" width="18" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="121"><p class="tablebodytext">
+Modelos</p>
+</td>
+<td style = "border:1px solid #757575;" width="407"><p class="tablebodytext">
+Contém formulários modificadas com informações específicas inseridas pelo 
+usuário.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="45"><p class="tablebodytext"><img src="icon_trash.gif" alt="icon_trash" height="16" width="18" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="121"><p class="tablebodytext">
+Lixeira</p>
+</td>
+<td style = "border:1px solid #757575;" width="407"><p class="tablebodytext">
+Contém petições (ou modelos) excluídos. Uma vez que a pasta Lixeira for 
+esvaziada, nenhum dos objetos excluídos no e-Patentes/Depósito poderá ser 
+recuperado.</p>
+</td>
+</tr>
+
+</table>
+<p class="bodytext"></p>
+<p class="bodytext">Você pode criar suas próprias pastas e sub-pastas no 
+e-Patentes/Depósito Editor. Essas pastas podem ser nomeadas por tipo de 
+formulário, nome da empresa, ou qualquer outro critério escolhido. As pastas são 
+ordenadas alfabeticamente abaixo da <i><b>Pasta Padrão</b></i>. Você pode 
+renomear e excluir as pastas criadas.</p>
+<p class="graphic">
+<img src="fileman_folders.jpg" alt="fileman_folders" height="275" width="184" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="bodyboldz1">Criando uma pasta</p>
+<ul class="listaction"><li class="listaction">No e-Patentes/Depósito Editor, 
+  selecione <span class="bodyobject">Nova Pasta</span> no menu <span class="bodyobject">
+  Arquivo</span>.<p class="listcontinue">-OU-</p>
+</li><li class="listaction">Clique com o botão direito na área das pastas e 
+  selecione <span class="bodyobject">Nova Pasta<span style="font-style: normal; font-weight: 400"> 
+  a partir do menu de atalho</span></span>.</li><li class="listaction">Digite o <span class="textentry">nome</span> 
+  para a pasta e pressione <span class="keyboard">ENTER</span>.</li></ul><p class="graphic">
+<img src="fileman_folder_new.jpg" alt="" height="182" width="162" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="bodybold">Criando uma subpasta</p>
+<ul class="listaction"><li class="listaction">Clique com o botão direito na 
+  pasta que se deseja adicionar uma sub-pasta.</li><li class="listaction">
+  Selecione <span class="bodyobject">Nova Subpasta<span style="font-style: normal">
+  </span><span style="font-style: normal; font-weight: 400">no menu de atalho</span></span>. </li><li class="listaction">
+  Digite o nome para a subpasta e pressione <span class="keyboard">ENTER</span>.</li></ul><p class="bodybold">
+Renomeando uma pasta</p>
+<ul class="listaction"><li class="listaction">Clique com o botão direito na 
+  pasta que deseja renomear.<p class="listcontinue">-OU-</p>
+<p class="listcontinue">Pressione a tecla <span class="keyboard">F2</span>.</p>
+</li><li class="listaction">Selecione <span class="bodyobject">Renomear 
+  Diretório</span> no menu de atalho.</li><li class="listaction">Digite o <span class="textentry">novo nome</span> 
+  e pressione <span class="keyboard">ENTER</span>.</li></ul><p class="graphic">
+<img src="fileman_folder_rename.jpg" alt="fileman_folder_rename" height="181" width="153" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="bodyboldz1">Excluindo uma pasta</p>
+<ul class="listaction"><li class="listaction">Clique com o botão direito na 
+  pasta que se deseja apagar.</li><li class="listaction">Selecione
+  <span class="bodyobject">Apagar Diretório<span style="font-weight: 400; font-style: normal"> 
+  no menu de atalho</span></span>.<p class="listcontinue">Esta pasta será 
+  apagada imediatamente.</p>
+</li></ul><p class="bodyinfo">Por questões de segurança, você só pode excluir 
+pastas que não contêm quaisquer petições ou modelos.</p>
+<p class="bodybold">Ordenando as pasta</p>
+<ul class="listaction"><li class="listaction">No e-Patentes/Depósito Editor, 
+  selecione a pasta que deseja ordenar.</li><li class="listaction">Selecione o 
+  nome da coluna que se deseja ordenarr em uma lista no menu <span class="bodyobject">
+  Ver &gt; Ordenar</span>.</li></ul><p class="graphic"><img src="fileman_sorting_menu.jpg" alt="" height="253" width="590" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="listcontinue">-OU-</p>
+<ul class="listaction"><li class="listaction">Clique no cabeçalho da coluna na <span class="bodyobject">lista 
+  de petições</span>. </li><li class="listaction">Clique novamente no cabeçalho 
+  da coluna para alterar a ordem de ascendente (A-Z ou 0-9) para descendente (Z-A&nbsp;ou 9-0).</li></ul><p class="graphic"><img src="fileman_sorting_columns.jpg" alt="fileman_sorting_columns" height="170" width="590" vspace="0" hspace="0" align="bottom" border="0"></p>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinknext"><a href="5402.htm" target="_self"><img src="topic_next.gif" alt="Next topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Próximo tópico</a></p></td>
+</tr>
+</table>
+
+</body>
+</html>

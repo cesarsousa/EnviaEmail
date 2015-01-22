@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> Toolbar </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="Generator" content="Microsoft FrontPage 5.0">
+<meta name="Keywords" content="Help, Menu, Menu bar, Online help, Shortcut menu, Toolbar">
+<link rel="stylesheet" type="text/css" href="44.css">
+</head>
+<body text="#000000" link="#0E2034" alink="#B42821" vlink="#0E2034"><table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinkprevious"><a href="1024.htm" target="_self"><img src="topic_previous.gif" alt="Previous topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Tópico anterior</a></p></td>
+</tr>
+</table>
+<h2 class="heading2">Barra de Ferramentas</h2>
+<p class="bodytablenext">A<span class="bodyobject"> barra de ferramentas</span> 
+do e-Patentes/Depósito fornece botões para as tarefas mais comuns que você 
+precisa para preparar, assinar e enviar a sua petição. </p>
+<table width="550" cellpadding="2" cellspacing="0" border="1" style="border-collapse:collapse; border:1px solid #757575">
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tableheading">Botão</p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tableheading">Função</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tableheading">Comentário</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_new.gif" alt="button_new" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Novo Rascunho</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Criar uma nova petição com base em um formulário padrão ou modelo.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_delete.gif" alt="" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Apagar petição</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Move o item selecionado para a lixeira.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_previous.gif" alt="" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Anterior</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Move a petição para o passo anterior no fluxo de trabalho.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_next.gif" alt="" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Próximo</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Move a petição para o próximo passo do fluxo de trabalho.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_validate.gif" alt="" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Validações</p>
+</td>
+<td style = "border:1px solid #757575;" width="392">
+<p class="tablebodytext">Visualiza as mensagens de validação.</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_note.gif" alt="" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Notas Internas</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Criar notas sobre a petição não destinadas à transmissão ao INPI. Notas para o 
+INPI são inseridos na guia <i><b>Anotações <font color="#FF0000">(???)</font></b></i> 
+em um formulário.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_addressbook.gif" alt="button_address_book" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Agenda</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Salva detalhes de uma pessoa física ou jurídica na Agenda.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_system.gif" alt="" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Preferências do Sistema</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Abre a janela de Preferências do Sistema.</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td style = "border:1px solid #757575;" width="53"><p class="tablebodytext"><img src="button_help.gif" alt="button_help" height="28" width="30" vspace="0" hspace="0" align="bottom" border="0"></p>
+</td>
+<td style = "border:1px solid #757575;" width="105"><p class="tablebodytext">
+Ajuda</p>
+</td>
+<td style = "border:1px solid #757575;" width="392"><p class="tablebodytext">
+Abre a ajuda do e-Patentes/Depósito.</p>
+</td>
+</tr>
+
+</table>
+<p class="bodytext"></p>
+<p class="bodytext">Todas as funções acima mencionadas também podem ser ativadas 
+através de opções na barra de menu do e-Patentes/Depósito Editor.</p>
+<p class="warning">Outra alternativa é o menu de atalho, que você abre clicando 
+com o botão direito em um objeto. O menu de atalho sempre contém uma lista de 
+opções freqüentemente utilizados para tornar o trabalho com e-Patentes/Depósito 
+tão amigável quanto possível. </p>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinknext"><a href="1023.htm" target="_self"><img src="topic_next.gif" alt="Next topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Próximo tópico</a></p></td>
+</tr>
+</table>
+
+</body>
+</html>

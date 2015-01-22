@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> Exporting data for backup and archiving </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="Generator" content="Microsoft FrontPage 5.0">
+<meta name="Keywords" content="Archive, Data backup, Database, Delete application, Deleting, Exporting">
+<link rel="stylesheet" type="text/css" href="44.css">
+</head>
+<body text="#000000" link="#0E2034" alink="#B42821" vlink="#0E2034"><table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinkprevious"><a href="1031.htm" target="_self"><img src="topic_previous.gif" alt="Previous topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Tópico anterior</a></p></td>
+</tr>
+</table>
+<h2 class="heading2">Exportando dados para backup e arquivamento</h2>
+<p class="bodybold">Copias de backup </p>
+<p class="bodytext">O e-Patentes/Depósito oferece backup e funcionalidades de 
+restauração no e-Patentes/Depósito Editor e no e-Depósito Gerenciador.</p>
+<p class="bodytext">Para exportação total e funcionalidades de backup, use as 
+opções no e-Depósito Gerenciador.</p>
+<p class="bodytext">Os usuários que não estão autorizados a fazer login no 
+e-Depósito Gerenciador como administrador podem importar e exportar petições 
+individuais no e-Patentes/Depósito Editor.</p>
+<p class="bodybold">Arquivando conteudo de base de dados </p>
+<p class="bodytext">Manter um grande número de petições em um diretório central 
+de pastas pode, eventualmente, afetar o desempenho do sistema, por isso, é 
+também aconselhável para limpar as pastas, ocasionalmente arquivar os seus dados 
+para outras áreas de armazenamento em</p>
+<p class="bodytext">&nbsp;seu computador.</p>
+<p class="bodytext">Selecionando a opção <i><b>Apagar elementos do banco de 
+dados após arquivar</b></i> remove todos as petições selecionadas a partir de 
+e-Patentes/Depósito após cópias de backup terem sido feitas. Os dados podem 
+sempre ser importados de volta ao e-Patentes/Depósito</p>
+<p class="bodytext">através das opções<i><b> Importar </b></i>no menu<i><b> 
+Arquivo</b></i>.</p>
+<p class="bodytext">Todos os pedidos são importados para a pasta padrão no&nbsp; 
+e-Patentes/Depósito Editor.&nbsp; As petições exportadas do e-Patentes/Depósito, 
+e depois importadas de volta, não são colocadas, de volta, na pasta original.</p>
+<p class="bodybold">Exportando itens</p>
+<ul class="listaction"><li class="listaction">No e-Patentes/Depósito Editor 
+  selecione <span class="bodyobject">Exportar &gt; Formulários </span>a partir 
+  do menu <i><b>Arquivo.</b></i></li><li class="listaction">Selecione a opção<i><b> 
+  Apagar elementos do banco de dados após arquivar</b></i> se desejado.</li><li class="listaction">
+  Selecione as petições que deseja fazer cópia e clique em <strong class="buttons">OK</strong>.</li><li class="listaction">
+  Na janela&nbsp; <b><i>Exportar formulários ZIP para uma pasta </i></b>, 
+  escolha a localização para os arquivos.<p class="listinfo2">O sistema 
+  selecionará inicialmente a localização escolhida nas <i><b>Preferências do 
+  Usuários.</b></i></p>
+</li><li class="listaction">Na janela de aviso <span class="bodyobject">
+  Exportação completa, </span>clique <strong class="buttons">OK</strong>.<p class="listcontinue">
+  O arquivo é salvo no formato ZIP com o nome do arquivo automaticamente 
+  retirado da petição de referência.</p>
+</li></ul><p class="bodyboldz1">Exemplo 1:</p>
+<p class="bodytext">Neste exemplo duas petições são marcadas para exportação, 
+mais não para remoção.</p>
+<p class="graphic"><img src="export_forms_individual.jpg" alt="" height="398" width="590" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="bodyboldz1">Exemplo 2:</p>
+<p class="bodytext">Neste exemplo todas as petições marcadas como <i><b>Enviada</b></i> 
+foram marcadas para arquivamento. Elas serão removidas do e-Patentes/Depósito.</p>
+<ul class="listaction"><li class="listaction">Selecione a pasta <i><b>Enviado</b></i> 
+  a esquerda.</li><li class="listaction">Clique no marcador verde no cabeçalho 
+  da coluna para selecionar todas a s petições.<p class="listcontinue"><img src="icon_check_all.gif" alt="icon_check_all" height="18" width="22" vspace="0" hspace="0" align="bottom" border="0"></p>
+</li><li class="listaction">Marque a opção <i><b>Apagar elementos do banco de 
+  dados após arquivar</b></i> .</li><li class="listaction">Clique <strong class="buttons">OK</strong>.</li></ul><p class="graphic"><img src="export_forms_sent.jpg" alt="" height="176" width="590" vspace="0" hspace="0" align="bottom" border="0"></p>
+<p class="listinfo2">O sistema selecionará inicialmente a localização escolhida 
+nas <i><b>Preferências do Usuários.</b></i></p>
+<ul class="listaction"><li class="listaction">Clique <strong class="buttons">OK</strong> 
+  para confirmar a localização do arquivo.</li></ul><p class="graphic"><img src="export_zip_folder.jpg" alt="" height="240" width="247" vspace="0" hspace="0" align="bottom" border="0"></p>
+<ul class="listaction"><li class="listaction">Na janela de aviso <span class="bodyobject">
+  Exportação completa, </span>clique <strong class="buttons">OK</strong>.</li></ul><p class="bodyinfo">
+Depois de excluir petições no banco de dados, é aconselhável usar a função de 
+limpar banco de dados no e-Depósito Gerenciador.</p>
+<p class="bodyinfo">Cada arquivo ZIP contém um número de arquivos PDF e XML que 
+foram criados internamente pelo e-Patentes/Depósito. Neste exemplo, o arquivo 
+ZIP contém também arquivos DAT que foram gerados pelo processo de envio.</p>
+<p class="graphic"><img src="explorer_zip_contents.jpg" alt="" height="389" width="590" vspace="0" hspace="0" align="bottom" border="0"></p>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinknext"><a href="1028.htm" target="_self"><img src="topic_next.gif" alt="Next topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Próximo tópico</a></p></td>
+</tr>
+</table>
+
+</body>
+</html>

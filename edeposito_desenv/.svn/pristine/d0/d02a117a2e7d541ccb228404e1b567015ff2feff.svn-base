@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> Users </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<meta name="Generator" content="Microsoft FrontPage 5.0">
+<meta name="Keywords" content="Administration">
+<link rel="stylesheet" type="text/css" href="36.css">
+</head>
+<body text="#000000" link="#0E2034" alink="#B42821" vlink="#0E2034"><table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinkprevious"><a href="1025.htm" target="_self"><img src="topic_previous.gif" alt="Previous topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Tópico anterior</a></p></td>
+</tr>
+</table>
+<h3 class="heading3">Usuários</h3>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "300">
+<p class="relatedheading">Neste Capítulo</p><p class="relateditem"><a href="8314.htm" target="_self">Criando 
+usuários</a></p><p class="relateditem"><a href="8315.htm" target="_self">Adicionando 
+usuários a um grupo</a></p><p class="relateditem"><a href="8316.htm" target="_self">
+Desbloqueando usuários</a></p></td>
+</tr>
+</table>
+<p class="bodytex1st">A aba Usuários lista todas as pessoas que estão 
+autorizadas a utilizar e-Patentes/Depósito. Nomes de login e senhas diferenciam 
+maiúsculas e minúsculas, por isso devem ser digitados exatamente como criadas.</p>
+<p class="bodyinfo">O<i><b> Administrator</b></i> é criado automaticamente 
+durante a instalação do software e não pode ser renomeado ou excluído.</p>
+<p class="warning">Configurar grupos e perfis de primeiro e depois adicione os 
+usuários individuais para os grupos que você desejar.</p>
+<p class="bodytext"></p>
+<table cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td width= "130">
+<p class="topiclinknext"><a href="8314.htm" target="_self"><img src="topic_next.gif" alt="Next topic" height="11" width="19" vspace="0" hspace="0" align="bottom" border="0"> 
+Próximo tópico</a></p></td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title> Glossary </title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<base target="BODY">
+<meta name="Generator" content="Microsoft FrontPage 5.0">
+<meta name="Keywords" content="">
+<link rel="stylesheet" type="text/css" href="40.css">
+</head>
+<body text="#000000" link="#0E2034" alink="#B42821" vlink="#0E2034"><h1 class="heading1">
+Glossário</h1>
+<a name="o5372">
+<p class="glossaryheading">ASCII</p>
+<p class="bodytext">Código Padrão Americano para Intercâmbio de Informações.</p>
+<p class="bodytext">Pode conter letras, números, espaços e pontuação, mas não 
+formatação. Também chamado de&nbsp;arquivo de texto.</p>
+</a>
+<a name="o5374"></a>
+<a name="o5390"></a>
+<p class="glossaryheading">CD-ROM</p>
+<p class="bodytext">Um CD-ROM (Compact Disc Read-Only Memory) é um CD que 
+armazena permanentemente&nbsp;dados gravados. Um CD-RW, em contraste, é regravável (RW), 
+o que significa que permite a supressão de dados do CD.</p>
+<p class="glossaryheading">Dígito de verificação</p>
+<p class="bodytext">Um dígito de verificação contém um algoritmo que 
+verifica&nbsp;números introduzidos, ajudando a reduzir erros de digitação.</p>
+<p class="glossaryheading">CORBA</p>
+<p class="bodytext">(Common Object Request Broker Architecture): arquitetura 
+que&nbsp;define protocolos multi-plataforma e serviços, facilita o desenvolvimento de 
+aplicações distribuídas e aplicações em ambientes heterogêneos.</p>
+<p class="glossaryheading">CSV</p>
+<p class="bodytext">(Comma&nbsp;Separated Values)&nbsp;.</p>
+<p class="bodytext">Um formato de arquivo&nbsp;normalmente utilizados para&nbsp;conjuntos 
+de dados onde os dados são dispostos em colunas e linhas. Os campos de dados 
+individuais são separados uns dos outros por delimitadores, tais como vírgulas.</p>
+<p class="glossaryheading">Padrão</p>
+<p class="bodytext">Seleção automática feita pelo sistema quando o usuário não 
+seleciona uma alternativa específica.</p>
+<a name="o5373"></a>
+<a name="o5371"></a>
+<p class="glossaryheading">Delimitador</p>
+<p class="bodytext">Um caracter&nbsp;especial que define, ou separa, individualmente 
+ítens de um conjunto de dados. Vírgulas e ponto e vírgula são exemplos de 
+delimitadores comumente utilizados.</p>
+<p class="glossaryheading">Ancorar</p>
+<p class="bodytext">Para mover uma barra de ferramentas ou janela para a borda 
+de uma janela do aplicativo complementando-se a ela.</p>
+<a name="o6383"></a>
+<a name="o5379"></a>
+<p class="glossaryheading">DVD-ROM</p>
+<p class="bodytext">Um DVD (Digital Video Disc) é uma unidade de armazenamento 
+óptico de dados como um CD, mas com capacidade significativamente maior (cerca 
+de 4 GB). Por conseguinte, é principalmente utilizada para o armazenamento de 
+filmes de vídeo. DVD-ROM (Read-Only Memory) são geralmente usados para guardar 
+dados. Um gravador de DVD adequado é necessário para gravar dados para um DVD.</p>
+<p class="glossaryheading">Campo</p>
+<p class="bodytext">Um espaço em um formulário na tela onde o usuário pode 
+inserir algum item específico de informação, como por exemplo um nome ou uma 
+data. Campos podem ter restrições quanto ao tamanho e tipo de dados que podem 
+ser inseridos, por exemplo texto ou apenas números em um determinado formato.</p>
+<p class="glossaryheading">Firebird servidor de banco de dados SQL</p>
+<p class="bodytext">Firebird é uma versão simplificada&nbsp;de um sistema de 
+gerenciamento de dados&nbsp;relacional produzido pela Borland.</p>
+<p class="glossaryheading">GUI</p>
+<p class="bodytext">(Graphical User Interface)&nbsp; Interface Gráfica do Usuário: 
+componente de software do usuário, que permite a interação com os elementos 
+gráficos no programa através de um mouse e&nbsp;um teclado.</p>
+<p class="glossaryheading">HTTP</p>
+<p class="bodytext">HyperText Transfer Protocol: protocolo&nbsp;de transferência de 
+informações&nbsp;na WWW, geralmente em HTML.</p>
+<p class="glossaryheading">HTTPS</p>
+<p class="bodytext">HyperText Transfer Protocol Secure: indica que o HTTP é 
+usado com uma porta diferente (443) e uma camada de criptografia/autenticação 
+adicional entre HTTP e TCP.</p>
+<p class="glossaryheading">Ícone</p>
+<p class="bodytext">Uma pequena imagem exibida na tela que permite ao usuário 
+controlar determinadas ações do computador&nbsp; sem ter que lembrar comandos ou 
+digitá-los no teclado.</p>
+<a name="o6017"></a>
+<p class="glossaryheading">IIOP</p>
+<p class="bodytext">Internet Inter ORB Protocol: utilizado no&nbsp;CORBA, usado para 
+executar RPCs (Chamadas de procedimento remoto).</p>
+<p class="glossaryheading">LAN</p>
+<p class="bodytext">Rede de Área Local: normalmente dentro de uma&nbsp;empresa ou 
+pequeno escritório.</p>
+<p class="glossaryheading">Não-repúdio (Non-repudiation)</p>
+<p class="bodytext">Para proteger e garantir a confiança nas assinaturas 
+digitais, as partes podem empregar o chamado &quot;não-repúdio&quot;, que não&nbsp;apenas 
+valida o remetente, mas também&nbsp;a data e hora da transação, de modo que não se 
+possa&nbsp;posteriormente reivindicar que a transação não foi autorizada ou não era 
+válida.</p>
+<p class="glossaryheading">ORB</p>
+<p class="bodytext">Object Request Broker: agente que permite a comunicação 
+entre objetos dentro de um sistema distribuído, como por exemplo a Internet.</p>
+<p class="glossaryheading">Patch</p>
+<p class="bodytext">Uma nova característica ou função adicionada a um programa, 
+normalmente&nbsp;utilizados como uma medida provisória antes do lançamento de uma 
+versão completa do software.</p>
+<p class="glossaryheading">PDF</p>
+<p class="bodytext">Portable Document Format.</p>
+<p class="bodytext">Um formato de arquivo usado para salvar documentos. Ele pode 
+ser lido utilizando algum software leitor de&nbsp;PDFs.</p>
+<p class="glossaryheading">PIN</p>
+<p class="bodytext">Número de Identificação Pessoal: uma senha numérica 
+compartilhada entre um usuário e um sistema, usado para autenticar o usuário no 
+sistema.</p>
+<p class="glossaryheading">PMS</p>
+<p class="bodytext">Sistema de Gestão de Patentes.</p>
+<p class="glossaryheading">Porta</p>
+<p class="bodytext">Uma porta é parte de um endereço de rede para um aplicativo 
+servidor executado em um computador dentro da rede. Portas típicas são 80 para 
+Servifores Web HTTP&nbsp;e 110 para servidores de correio POP3.</p>
+<p class="glossaryheading">Servidor Proxy</p>
+<p class="bodytext">Um componente de firewall que gerencia o tráfego de Internet 
+de e para uma rede.</p>
+<p class="glossaryheading">SOAP</p>
+<p class="bodytext">Simple Object Access Protocol: protocolo que usa XML para 
+visualização de dados e principalmente HTTP para a transmissão.</p>
+<p class="bodytext">&nbsp;</p>
+<p class="glossaryheading">SQL</p>
+<p class="bodytext">Linguagem de Consulta Simples:&nbsp;usada para consultar e 
+modificar bases de dados.</p>
+<p class="glossaryheading">SSL</p>
+<p class="bodytext">Secure Socket Layer.</p>
+<p class="bodytext">Um protocolo desenvolvido pela Netscape Communications 
+Corporation para garantir a segurança e privacidade nas comunicações na 
+Internet. Suporta autenticação de cliente, servidor, ou ambos, bem 
+como&nbsp;criptografia durante uma sessão de comunicação.</p>
+<p class="glossaryheading">TCP</p>
+<p class="bodytext">Transmission Control Protocol - Protocolo de Controle de 
+Transmissão</p>
+<p class="bodytext">Protocolo utilizado para gerenciar a troca de dados entre 
+computadores através de conexões da rede.</p>
+<p class="glossaryheading">TIFF</p>
+<p class="bodytext">Tagged Image File Format.</p>
+<p class="bodytext">Um formato de arquivo padrão comumente utilizado para 
+digitalização e armazenamento em escala de cinza imagens. TIF podem ser 
+utilizados para as assinaturas digitalizadas.</p>
+<p class="glossaryheading">URL</p>
+<p class="bodytext">Uniform Resource Locator.</p>
+<p class="bodytext">Um endereço de algum recurso/site na internet. Usado pelos 
+navegadores para localizar recursos/sites da Internet.</p>
+<p class="glossaryheading">WAN</p>
+<p class="bodytext">Wide Area Network:&nbsp;Rede normalmente existente em vários 
+escritórios ou filiais de uma grande empresa ou organização,&nbsp;incluindo partes de 
+conexão via Internet&nbsp;entre&nbsp;eles.</p>
+<p class="bodytext">&nbsp;</p>
+<p class="bodytext"><span style="font-size: 11pt; font-weight: 700">Fluxo de Trabalho</span></p>
+<p class="bodytext">Corresponde&nbsp;ao monitoramento e gerenciamento de todas as 
+atividades do início ao fim.</p>
+<p class="glossaryheading">XML</p>
+<p class="bodytext">eXtensible Markup Language.</p>
+<p class="bodytext">XML é um padrão&nbsp;de processamento de&nbsp;documentos&nbsp;oficialmente 
+recomendado pelo Consórcio W3C, amplamente aceito pela comunidade que utiliza a 
+Internet. Ele fornece uma maneira de definir e gerenciar informações, podendo 
+ser usado para verificar a&nbsp;precisão e a qualidade dos documentos.</p>
+<p class="bodytext">&nbsp;</p>
+
+</body>
+</html>

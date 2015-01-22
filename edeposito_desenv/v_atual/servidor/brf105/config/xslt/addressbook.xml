@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addressbook>
+	<export-persons>
+		<person name="CLCN_ITEM_DEP_PJ" xslfile="Applicant_Legal_AB.xslt"/>
+		<person name="CLCN_ITEM_DEP_PF" xslfile="Applicant_Natural_AB.xslt"/>
+		<person name="CLCN_ITEM_PROCURADOR_PF" xslfile="Representative_Natural_AB.xslt"/>
+		<person name="CLCN_ITEM_PROCURADOR_PJ" xslfile="Representative_Legal_AB.xslt"/>
+		<person name="CLCN_ITEM_INVENTOR" xslfile="Inventor_AB.xslt"/>
+	</export-persons>
+	<import-persons>
+		<person name="CLCN_ITEM_DEP_PF" xslfile="Applicant_Natural_PL.xslt"/>
+		<person name="CLCN_ITEM_DEP_PJ" xslfile="Applicant_Legal_PL.xslt"/>
+		<person name="CLCN_ITEM_PROCURADOR_PF" xslfile="Representative_Natural_PL.xslt"/>
+		<person name="CLCN_ITEM_PROCURADOR_PJ" xslfile="Representative_Legal_PL.xslt"/>
+		<person name="CLCN_ITEM_INVENTOR" xslfile="Inventor_PL.xslt"/>
+	</import-persons>
+</addressbook>

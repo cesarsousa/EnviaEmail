@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+*********************************************************************************************************************
+ENTITIES:  
+*********************************************************************************************************************
+-->
+
+<!ENTITY % name_group "((name | (prefix? , (last-name | orgname) , first-name? , middle-name? , suffix? , iid? , role? , orgname? , department? , synonym*)) , registered-number? )">
+<!ENTITY % address_group "((address-1? , address-2? , address-3? , mailcode? , pobox? , room? , address-floor? , building? , street? , city? , county? , county-ext? ,state? , state-ext? ,postcode? , country, country-ext?) | text)">
+<!ENTITY % language " lang  CDATA  #REQUIRED" >
+<!ENTITY % linguagem " lingua  CDATA  #REQUIRED" >
+<!ENTITY % atributos_basicos "
+	%language; 
+	dtd-version         CDATA  #IMPLIED
+	formulario         CDATA  #REQUIRED
+	formulario-versao  CDATA  #REQUIRED" >
+<!ENTITY % data_preparacao " date-produced  CDATA  #IMPLIED" >
+<!ENTITY % produzido_por " produced-by  (applicant | RO | ISA | IPEA | IB | DO | EO | national-office | regional-office )  #REQUIRED" >
+<!ENTITY % ro " ro  CDATA  #REQUIRED" >
+
+<!--
+************************************
+Atributos da requisição
+***********************************
+
+Atributoss:
+  lang              = Liguagem da requisicao - usar código de linguagem ISO639
+  dtd-version       = número de versão do DTD
+  date-produced     = YYYYMMDD por exemplo, 20011230
+  ro                = Escritório receptor, country code ST.3          
+  produced-by       = Criador do documento
+  servico           = Código de serviço prinicpal
+  formulario        = Tipo do formulário
+  formulario-versao = Versão do formulário
+-->
+<!--
+******************************************************************************************************************************
+Elemento raiz para a requisição
+******************************************************************************************************************************
+-->
+<!ELEMENT requisicao (file-reference-id,info-processo, participantes, prioridades, acessos-mat-biologico, documentos, declaracoes, signatories) >
+<!ATTLIST requisicao
+	%atributos_basicos; 
+	%data_preparacao; 
+	%produzido_por;
+	%ro;
+	%data_preparacao; >
+
+<!ELEMENT file-reference-id (#PCDATA) >
+
+<!--
+******************************************************************************************************************************
+Elemento com informações do processo
+******************************************************************************************************************************
+-->
+
+<!ELEMENT info-processo (tipo-processo, titulo, info-pct, processo-relacionado, periodo-de-graca, GRUs) >
+
+<!ELEMENT tipo-processo (#PCDATA) >
+<!ELEMENT titulo (#PCDATA) >
+<!ATTLIST titulo
+	%linguagem; >
+	
+<!ELEMENT info-pct (pais-pct, pais-pct-extenso, ano, serial, data-pct) >
+<!ELEMENT pais-pct (#PCDATA)>
+<!ELEMENT pais-pct-extenso (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
+<!ELEMENT serial (#PCDATA)>
+<!ELEMENT data-pct (#PCDATA)>
+<!ELEMENT processo-relacionado (tipo, tipo-extenso, numero) >
+<!ATTLIST processo-relacionado
+	divisional  (true|false)  #REQUIRED >
+
+<!ELEMENT tipo (#PCDATA) >
+<!ELEMENT tipo-extenso (#PCDATA) >
+<!ELEMENT numero (#PCDATA) >
+
+<!ELEMENT periodo-de-graca (documento?) >
+
+<!ELEMENT GRUs (gru*) >
+
+<!ELEMENT gru EMPTY >
+<!ATTLIST gru
+	principal   (true | false)  #REQUIRED
+	servico     CDATA           #REQUIRED
+	numero      CDATA           #REQUIRED
+	quantidade  CDATA           #REQUIRED
+	requerente  CDATA           #REQUIRED >
+
+<!--
+******************************************************************************************************************************
+Informações das partes apresentadas na requisição
+******************************************************************************************************************************
+-->
+<!ELEMENT participantes (requerentes, procuradores, inventores) >
+
+<!-- Requerentes -->
+<!ELEMENT requerentes (requerente+) >
+<!ELEMENT requerente (livro-endereco) >
+<!ATTLIST requerente
+	sequencia    CDATA                             #REQUIRED
+	tipo         (applicant | applicant-inventor)  #REQUIRED
+	publicidade  (public | non-public)             #REQUIRED
+	tipo-legal   (legal | natural)                 #REQUIRED
+	pme          (true | false)                    #IMPLIED
+	gru          (true | false)                    #IMPLIED >
+
+<!-- Procuradores -->
+<!ELEMENT procuradores (procurador*) >
+<!ELEMENT procurador (livro-endereco) >
+<!ATTLIST procurador
+	sequencia   CDATA              #REQUIRED
+	tipo-legal  (legal | natural)  #REQUIRED >
+
+<!-- Inventores -->
+<!ELEMENT inventores (inventor*) >
+<!ELEMENT inventor (livro-endereco) >
+<!ATTLIST inventor
+	sequencia    CDATA                  #REQUIRED
+	publicidade  (public | non-public)  #REQUIRED
+	tipo-legal   (legal | natural)      #REQUIRED >
+
+<!-- Livro de endereços -->
+<!ELEMENT livro-endereco (((qualificacao, nome, sobrenome) | nome-organizacao), cpf-cnpj, api?, oab?, endereco, telefone, fax, email) >
+<!ATTLIST livro-endereco
+	%linguagem; >
+
+<!ELEMENT qualificacao (#PCDATA) >
+<!ELEMENT nome (#PCDATA) >
+<!ELEMENT sobrenome (#PCDATA) >
+<!ELEMENT nome-organizacao (#PCDATA) >
+<!ELEMENT cpf-cnpj (#PCDATA) >
+<!ELEMENT api (#PCDATA) >
+<!ELEMENT oab (#PCDATA) >
+
+<!ELEMENT endereco (logradouro, cidade, estado, estado-extenso, codigo-postal, pais, pais-extenso) >
+<!ELEMENT logradouro (#PCDATA) >
+<!ELEMENT cidade (#PCDATA) >
+<!ELEMENT estado (#PCDATA) >
+<!ELEMENT estado-extenso (#PCDATA) >
+<!ELEMENT codigo-postal (#PCDATA) >
+<!ELEMENT pais (#PCDATA) >
+<!ELEMENT pais-extenso (#PCDATA) >
+
+<!ELEMENT telefone (#PCDATA) >
+<!ELEMENT fax (#PCDATA) >
+<!ELEMENT email (#PCDATA) >
+<!--
+******************************************************************************************************************************
+Informações sobre as prioridades requeridas
+******************************************************************************************************************************
+-->
+<!ELEMENT prioridades (declaracao-prioridade, prioridade*) >
+
+<!ELEMENT declaracao-prioridade (#PCDATA) >
+<!ATTLIST declaracao-prioridade
+	texto  CDATA  #FIXED  "Declaro que os dados fornecidos no presente formul&#225;rio s&#227;o id&#234;nticos ao da certid&#227;o de dep&#243;sito ou documento equivalente do pedido cuja prioridade est&#225; sendo reivindicada." >
+
+<!ELEMENT prioridade (pais-escritorio, pais-escritorio-extenso, tipo, tipo-extenso, numero, data, documento, declaracao-traducao?) >
+<!ATTLIST prioridade
+	sequencia  CDATA           #REQUIRED
+	interna    (true | false)  #REQUIRED >
+
+<!ELEMENT pais-escritorio (#PCDATA) >
+<!ELEMENT pais-escritorio-extenso (#PCDATA) >
+<!ELEMENT data (#PCDATA) >
+<!ELEMENT declaracao-traducao (#PCDATA) >
+
+<!--
+******************************************************************************************************************************
+Informações sobre acesso a material biológico em centros depositários
+******************************************************************************************************************************
+-->
+<!ELEMENT acessos-mat-biologico (acesso*) >
+
+<!ELEMENT acesso (identificacao, centro-depositario, centro-depositario-extenso, endereco-centro-depositario, numero-adesao, documento?) >
+<!ATTLIST acesso
+	sequencia  CDATA  #REQUIRED >
+
+<!ELEMENT identificacao (#PCDATA) >
+<!ELEMENT centro-depositario (#PCDATA) >
+<!ELEMENT centro-depositario-extenso (#PCDATA) >
+<!ELEMENT endereco-centro-depositario (#PCDATA) >
+<!ELEMENT numero-adesao (#PCDATA) >
+
+<!--
+******************************************************************************************************************************
+Informações sobre os documentos apresentados
+******************************************************************************************************************************
+-->
+<!ELEMENT documentos (declaracao-pdf-txt, documento*) >
+
+<!ELEMENT declaracao-pdf-txt (#PCDATA) >
+<!ATTLIST declaracao-pdf-txt
+	texto CDATA #FIXED "Declaro que todos os documentos de especifica&#231;&#227;o em formato texto t&#234;m conte&#250;do igual ao dos documentos de especifica&#231;&#227;o anexados em formato PDF. Caso haja alguma diverg&#234;ncia entre os arquivos PDF e TXT (texto), ser&#225; considerado o conte&#250;do do arquivo PDF para fins de exame." >
+
+<!-- Documento -->
+<!ELEMENT documento (secao*) >
+<!ATTLIST documento
+	tipo                 CDATA           #REQUIRED
+	doc-code             CDATA           #REQUIRED
+	doc-code-int         CDATA           #IMPLIED
+	doc-code-sec         CDATA           #IMPLIED	
+	total-paginas        CDATA           #REQUIRED
+	nome-original        CDATA           #REQUIRED
+	nome-deposito        CDATA           #REQUIRED
+	numero-de-desenhos   CDATA           #IMPLIED
+	desenho-para-resumo  CDATA           #IMPLIED
+	desenhos-coloridos   (true | false)  #IMPLIED
+	gru-servico          CDATA           #IMPLIED
+	gru-numero           CDATA           #IMPLIED
+	gru-quantidade       CDATA           #IMPLIED
+	gru-requerente       CDATA           #IMPLIED
+	gru-principal        (true | false)  #IMPLIED
+	observacoes          CDATA           #IMPLIED >
+
+<!-- Seção de documento -->
+<!ELEMENT secao EMPTY >
+<!ATTLIST secao
+	doc-code          CDATA  #REQUIRED
+	pagina-inicial    CDATA  #REQUIRED
+	pagina-final      CDATA  #REQUIRED
+	contagem-paginas  CDATA  #REQUIRED >
+
+<!--
+******************************************************************************************************************************
+Declarações informadas pelo requerente
+******************************************************************************************************************************
+-->
+<!ELEMENT declaracoes (declaracao-01, declaracao-02, declaracao-03, declaracao-04, declaracao-05, declaracao-06, declaracao-07, declaracao-08) >
+
+<!-- Declaracao final 1 -->
+<!ELEMENT declaracao-01 (#PCDATA)>
+<!ATTLIST declaracao-01
+	texto  CDATA  #FIXED  "Declaro que assumo total responsabilidade sobre a integridade, a legibilidade e a fidedignidade dos documentos enviados por meio eletr&#244;nico, bem como sua adequa&#231;&#227;o aos requisitos t&#233;cnicos exig&#237;veis para seu correto processamento pelo sistema e-Patentes/Dep&#243;sito." >
+
+<!-- Declaracao final 2 -->
+<!ELEMENT declaracao-02 (#PCDATA)>
+<!ATTLIST declaracao-02
+	texto  CDATA  #FIXED  "Declaro ci&#234;ncia de que o envio dos documentos ao INPI s&#243; &#233; considerado concretizado ap&#243;s esses serem protocolados e um recibo com assinatura digital do INPI for entregue eletronicamente aos usu&#225;rios dos servi&#231;os. Em qualquer situa&#231;&#227;o de d&#250;vida, o usu&#225;rio dever&#225; apresentar esse recibo." >
+
+<!-- Declaracao final 3 -->
+<!ELEMENT declaracao-03 (#PCDATA)>
+<!ATTLIST declaracao-03
+	texto  CDATA  #FIXED  "Declaro ci&#234;ncia de que o INPI n&#227;o &#233; respons&#225;vel por qualquer perda resultante de falhas externas ao &#243;rg&#227;o ou quaisquer eventualidades n&#227;o relacionadas a problemas de infraestrutura do INPI que impe&#231;am o dep&#243;sito ou o peticionamento eletr&#244;nico." >
+
+<!-- Declaracao final 4 -->
+<!ELEMENT declaracao-04 (#PCDATA)>
+<!ATTLIST declaracao-04
+	texto  CDATA  #FIXED  "Declaro ci&#234;ncia de que os documentos enviados por formul&#225;rios eletr&#244;nicos ser&#227;o considerados recebidos pelo INPI nas exatas data e hora indicadas pelo provedor do INPI, constantes no recibo eletr&#244;nico expedido ao usu&#225;rio." >
+
+<!-- Declaracao final 5 -->
+<!ELEMENT declaracao-05 (#PCDATA)>
+<!ATTLIST declaracao-05
+	texto  CDATA  #FIXED  "Declaro ci&#234;ncia de que o dep&#243;sito ou o peticionamento eletr&#244;nico n&#227;o eliminam a necessidade da realiza&#231;&#227;o do exame formal e/ou de m&#233;rito nos dep&#243;sitos de pedidos de patente ou nas peti&#231;&#245;es, n&#227;o sendo suficiente para garantir o cumprimento de todas as formalidades e exig&#234;ncias t&#233;cnicas." >
+
+<!-- Declaracao final 6 -->
+<!ELEMENT declaracao-06 (#PCDATA)>
+<!ATTLIST declaracao-06
+	texto  CDATA  #FIXED  "Declaro que me comprometo a n&#227;o realizar qualquer modifica&#231;&#227;o capaz de alterar os arquivos automaticamente criados pelo sistema e-Patentes/Dep&#243;sito, tendo ci&#234;ncia de que qualquer altera&#231;&#227;o poder&#225; invalidar o dep&#243;sito ou o peticionamento eletr&#244;nico." >
+
+<!-- Declaracao final 7 -->
+<!ELEMENT declaracao-07 (#PCDATA)>
+<!ATTLIST declaracao-07
+	texto  CDATA  #FIXED  "Declaro ci&#234;ncia de que eventuais exig&#234;ncias formais e/ou t&#233;cnicas ser&#227;o posteriormente publicadas na Revista Eletr&#244;nica da Propriedade Industrial (RPI) disponibilizada no portal do INPI." >
+
+<!-- Declaracao final 8 -->
+<!ELEMENT declaracao-08 (#PCDATA)>
+<!ATTLIST declaracao-08
+	texto  CDATA  #FIXED  "Declaro, sob penas da Lei, que todas as informa&#231;&#245;es prestadas neste formul&#225;rio eletr&#244;nico s&#227;o completas e verdadeiras." >
+
+<!--
+******************************************************************************************************************************
+Assinaturas
+******************************************************************************************************************************
+-->
+<!ELEMENT signatories (signatory?) >
+
+<!-- The signature must be that of the applicant (if there are several applicants, all must sign); however, the signature may be that of the agent, or the common representative, 
+where a separate power of attorney appointing the agent or the common representative, respectively, or a copy of a general power of attorney is already in possession of the 
+receiving Office, is furnished. Indicate the capacity of the signer with 'signatory-capacity'-->
+<!ELEMENT signatory (%name_group;, address?, electronic-signature, signatory-capacity?) >
+<!-- The capacity in which the person signs -->
+<!ELEMENT signatory-capacity (#PCDATA) >
+<!-- A PKI / PKCS #7 digital signature data type -->
+<!ELEMENT enhanced-signature (pkcs7) >
+<!-- PKCS7 digital signature -->
+<!ELEMENT pkcs7 EMPTY >
+<!-- A non-PKI electronic signature -->
+<!ELEMENT basic-signature (fax-image | text-string | click-wrap) >
+<!-- A simple 'signature'; e.g., clicking a button labeled 'accept' or 'I agree' -->
+<!ELEMENT click-wrap EMPTY >
+<!-- A simple text string  used as the basic electronic signature; e.g., John Doe 
+<text-string>/jd/</text-string> -->
+<!ELEMENT text-string (#PCDATA) >
+<!-- A signature represented by electronic means-->
+<!ELEMENT electronic-signature (basic-signature | enhanced-signature) >
+<!ATTLIST electronic-signature
+	date CDATA #REQUIRED
+	place-signed CDATA #IMPLIED >
+<!-- A TIFF image of a signature-->
+<!ELEMENT fax-image EMPTY >
+<!ATTLIST fax-image
+	file CDATA #REQUIRED >
+<!-- Descriptive text-->
+<!ELEMENT dtext (#PCDATA) >
+
+<!-- Name: If no distinction or detail can be given. Also to be used for: personal (natural person) and corporate (legal entity) names-->
+<!ELEMENT name (#PCDATA)>
+<!-- Last, family, surname-->
+<!ELEMENT last-name (#PCDATA)>
+<!-- Title: e.g., Mr., Mrs., Dr. etc-->
+<!ELEMENT prefix (#PCDATA)>
+<!-- First or given name(s), initial(s)-->
+<!ELEMENT first-name (#PCDATA)>
+<!-- Middle name(s) or initial(s)-->
+<!ELEMENT middle-name (#PCDATA)>
+<!-- Individual id-->
+<!ELEMENT iid (#PCDATA)>
+<!-- Name suffix (e.g., II, Jr., Dip., Ing., BA, etc.) -->
+<!ELEMENT suffix (#PCDATA)>
+<!-- Role; e.g., President, Chairman, etc.-->
+<!ELEMENT role (#PCDATA)>
+<!-- Organisation name or company name-->
+<!ELEMENT orgname (#PCDATA)>
+<!-- Department, division, section, etc. name-->
+<!ELEMENT department (#PCDATA)>
+<!-- Synonym-->
+<!ELEMENT synonym (#PCDATA)>
+<!-- Registered number-->
+<!ELEMENT registered-number (#PCDATA)>
+<!-- Address components: Address formats differ from country to country If no structure possible use text-->
+<!ELEMENT address (%address_group;)>
+<!-- Address, first line-->
+<!ELEMENT address-1 (#PCDATA)>
+<!-- Address, second line-->
+<!ELEMENT address-2 (#PCDATA)>
+<!-- Address, third line-->
+<!ELEMENT address-3 (#PCDATA)>
+<!-- Organizational mail code-->
+<!ELEMENT mailcode (#PCDATA)>
+<!-- Post Office Box number-->
+<!ELEMENT pobox (#PCDATA)>
+<!-- Address room; e.g., Room 55B-->
+<!ELEMENT room (#PCDATA)>
+<!-- Address floor; e.g., 10th-->
+<!ELEMENT address-floor (#PCDATA)>
+<!-- Building information in address; e.g., Hoffman building-->
+<!ELEMENT building (#PCDATA)>
+<!-- Street may contain house number or name-->
+<!ELEMENT street (#PCDATA)>
+<!-- City or town name-->
+<!ELEMENT city (#PCDATA)>
+<!-- County, parish, department, etc (mainly UK, USA)-->
+<!ELEMENT county (#PCDATA)>
+<!ELEMENT county-ext (#PCDATA)>
+<!-- Region of country; e.g., state, province, etc.-->
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT state-ext (#PCDATA)>
+<!-- Postal code or zip code-->
+<!ELEMENT postcode (#PCDATA)>
+<!-- Country: use ST.3 country code; e.g. DE, FR, GB, NL, etc. Also includes EP, WO-->
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT country-ext (#PCDATA)>
+<!-- If no structure is possible, enter text (without markup)-->
+<!ELEMENT text (#PCDATA)>
+
+

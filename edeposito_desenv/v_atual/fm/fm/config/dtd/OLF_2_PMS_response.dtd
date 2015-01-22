@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT OLF_2_PMS_response (return_values?, application*)>
+<!ATTLIST OLF_2_PMS_response 
+	mode (demo | production) #REQUIRED
+	language CDATA #REQUIRED
+	result (success | failure) #REQUIRED>
+
+
+<!ELEMENT return_values (return_value+)>
+
+
+<!ELEMENT return_value (#PCDATA)>
+<!ATTLIST return_value
+	error_ID CDATA #REQUIRED
+	>
+
+
+<!ELEMENT application (validation_info?, internal_notes?)>
+<!ATTLIST application
+	application_ID CDATA #REQUIRED
+	procedure CDATA #IMPLIED
+	user_reference CDATA #IMPLIED
+	application_language CDATA #IMPLIED
+	state (draft | ready_to_sign | ready_to_send | sent) #IMPLIED
+	folder CDATA #IMPLIED
+	last_saved_user CDATA #IMPLIED
+	last_saved_date CDATA #IMPLIED
+	retries_sending CDATA #IMPLIED>
+
+
+<!ELEMENT validation_info (validation_message+)>
+
+
+<!ELEMENT validation_message (#PCDATA)>
+<!ATTLIST validation_message
+	severity (1 | 2 | 3) #REQUIRED
+	validation_ID CDATA #REQUIRED
+    gui_tab CDATA #IMPLIED>
+
+
+<!ELEMENT internal_notes (internal_note+)>
+
+
+<!ELEMENT internal_note (#PCDATA)>
+<!ATTLIST internal_note
+	author CDATA #REQUIRED
+	date CDATA #REQUIRED
+	subject CDATA #REQUIRED> 

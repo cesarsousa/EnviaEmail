@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project NS1:schemaLocation="http://www.epo.org/si/package-descriptor http://www.epo.org/si/package-descriptor.xsd"
+         xmlns="http://www.epo.org/si/package-descriptor" xmlns:NS1="http://www.w3.org/2001/XMLSchema-instance">
+
+    <descriptorVersion>0.3</descriptorVersion>
+    <id>OlfFop</id>
+    <groupId>OlfFop</groupId>
+    <description>FOP</description>
+    <categories>
+        <category>bundle</category>
+    </categories>
+    <currentVersion>${majorversion}.${minorversion}.${release}.${build}</currentVersion>
+    <configFiles>
+        <configFile>
+            <name>config/EP1001config.xml</name>
+            <properties>
+                <tokenized/>
+            </properties>
+        </configFile>
+    </configFiles>
+    <repository>
+        <reference>scm:cvs:pserver:epoline-build@cvs.internal.epo.org:/cvsroot:epoline/olf/Client</reference>
+    </repository>
+    <extDependencies>
+        <dependency>
+            <category>system</category>
+            <artifactId>Java</artifactId>
+            <description>JRE 1.5</description>
+        </dependency>
+    </extDependencies>
+    <url>http://www.epoline.org/</url>
+    <organization>
+        <name>European Patent Office</name>
+        <url>http://www.epo.org/</url>
+        <department>PD OX</department>
+    </organization>
+    <developers>
+        <person>
+            <id>dv03931</id>
+            <name>Dirk Van Haken</name>
+            <email>dvanhaken@epo.org</email>
+            <roles>
+                <role>Project Manager</role>
+            </roles>
+        </person>
+        <person>
+            <id>dp85171</id>
+            <name>Dzmitry Prakopchyk</name>
+            <email>dprakopchyk@epo.org</email>
+            <roles>
+                <role>Application Assembler</role>
+                <role>Development co-ordinator</role>
+            </roles>
+        </person>
+    </developers>
+</project>

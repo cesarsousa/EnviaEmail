@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version 0.99-1 of 2007-06-22 -->
+<!ENTITY % name_group "((name | (prefix? , (last-name | orgname) , first-name? , middle-name? , suffix? , iid? , role? , orgname? , department? , synonym*)) , registered-number?)">
+<!ENTITY % address_group "((address-1? , address-2? , address-3? , address-4? , address-5? , mailcode? , pobox? , room? , address-floor? , building? , street? , city? , county? , state? , postcode? , country) | text)">
+<!ELEMENT PMS_2_OLF_input (import | validate | sign | send | export | remove | information)>
+<!-- PMS_2_OLF_input attributes
+	user_name: User name in the context of the eOLF user management.
+	password: User password in the context of the eOLF user management 
+	language: Language of validation messages to be returned. Two-character ST36 language code. E. g. 'en', 'de', 'fr', etc.
+	mode: Operation mode (and respective database) of the eOLF system. In case not specified, the system selects 'production' as default.
+-->
+<!ATTLIST PMS_2_OLF_input
+	user_name CDATA #REQUIRED
+	password CDATA #REQUIRED
+	language CDATA #REQUIRED
+	mode (demo | production) #REQUIRED
+>
+<!-- Validate
+	Validate element should be used with the Verify command.
+	-->
+<!ELEMENT validate (office_specific_parameters?)>
+<!ATTLIST validate
+	pdf_preview (yes | no) 
+>
+
+<!-- Import
+	Import element should be used with the Import command.
+	-->
+<!ELEMENT import (folder?, office_specific_parameters?)>
+<!ATTLIST import
+	import_state (draft | ready_to_sign | ready_to_send) #REQUIRED
+>
+<!-- Office_specific_parameters
+	This  element should be used with the Validate and Import command when office specific parameters are required which are not contained in the xml to be validated or imported.
+.	-->
+<!ELEMENT office_specific_parameters (office_specific_parameter+)>
+<!ATTLIST office_specific_parameters
+	office_code CDATA #REQUIRED
+>
+<!ELEMENT office_specific_parameter EMPTY>
+<!ATTLIST office_specific_parameter
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED
+>
+<!-- Sign
+	Sign element should be used with the Sign command. "Signatories" element to be taken from the Annex F XML
+	-->
+<!ELEMENT sign (application_id, signatories)>
+<!ATTLIST sign
+	final_signature (yes | no) #REQUIRED
+>
+<!--
+  Signatories
+
+-->
+<!ELEMENT signatories (signatory+)>
+<!--
+  PCT/RO/101 Box No. X:
+  The signature must be that of the applicant (if there are several applicants, all
+  must sign); however, the signature may be that of the agent, or the common
+  representative, where a separate power of attorney appointing the agent or the
+  common representative, respectively, or a copy of a general power of attorney is
+  already in possession of the receiving Office, is furnished...
+  (PCT Rules 4.1(d), 4.15, and 90)
+
+  Indicate the capacity of the signer with 'signatory-capacity'
+
+-->
+<!ELEMENT signatory (%name_group;, address?, electronic-signature, signatory-capacity?)>
+<!ELEMENT address (%address_group;)>
+<!--
+  If no structure is possible, enter text (without markup)
+
+-->
+<!ELEMENT text (#PCDATA)>
+<!--
+  Country: use ST.3 country code; e.g. DE, FR, GB, NL, etc.
+  Also includes EP, WO
+
+-->
+<!ELEMENT country (#PCDATA)>
+<!--
+  Postal code or zip code
+
+-->
+<!ELEMENT postcode (#PCDATA)>
+<!--
+  Region of country; e.g., state, province, etc.
+
+-->
+<!ELEMENT state (#PCDATA)>
+<!--
+  County, parish, department, etc (mainly UK, USA)
+
+-->
+<!ELEMENT county (#PCDATA)>
+<!--
+  City or town name
+
+-->
+<!ELEMENT city (#PCDATA)>
+<!--
+  Street may contain house number or name
+
+-->
+<!ELEMENT street (#PCDATA)>
+<!--
+  Building information in address; e.g., Hoffman building
+
+-->
+<!ELEMENT building (#PCDATA)>
+<!--
+  Address floor; e.g., 10th
+
+-->
+<!ELEMENT address-floor (#PCDATA)>
+<!--
+  Address room; e.g., Room 55B
+
+-->
+<!ELEMENT room (#PCDATA)>
+<!--
+  Post Office Box number
+
+-->
+<!ELEMENT pobox (#PCDATA)>
+<!--
+  Organizational mail code
+
+-->
+<!ELEMENT mailcode (#PCDATA)>
+<!--
+  Address, fifth line
+
+-->
+<!ELEMENT address-5 (#PCDATA)>
+<!--
+  Address, fourth line
+
+-->
+<!ELEMENT address-4 (#PCDATA)>
+<!--
+  Address, third line
+
+-->
+<!ELEMENT address-3 (#PCDATA)>
+<!--
+  Address, second line
+
+-->
+<!ELEMENT address-2 (#PCDATA)>
+<!--
+  Address, first line
+
+-->
+<!ELEMENT address-1 (#PCDATA)>
+<!--
+  Registered number
+
+-->
+<!ELEMENT registered-number (#PCDATA)>
+<!--
+  Synonym
+
+-->
+<!ELEMENT synonym (#PCDATA)>
+<!--
+  Department, division, section, etc. name
+
+-->
+<!ELEMENT department (#PCDATA)>
+<!--
+  Organisation name or company name
+
+-->
+<!ELEMENT orgname (#PCDATA)>
+<!--
+  Role; e.g., President, Chairman, etc.
+
+-->
+<!ELEMENT role (#PCDATA)>
+<!--
+  SDOBI : Individual id
+
+-->
+<!ELEMENT iid (#PCDATA)>
+<!--
+  Name suffix (e.g., II, Jr., Dip., Ing., BA, etc.)
+
+-->
+<!ELEMENT suffix (#PCDATA)>
+<!--
+  Middle name(s) or initial(s)
+
+-->
+<!ELEMENT middle-name (#PCDATA)>
+<!--
+  First or given name(s), initial(s)
+
+-->
+<!ELEMENT first-name (#PCDATA)>
+<!--
+  Last, family, surname
+
+-->
+<!ELEMENT last-name (#PCDATA)>
+<!--
+  Title: e.g., Mr., Mrs., Dr. etc
+
+-->
+<!ELEMENT prefix (#PCDATA)>
+<!--
+  The capacity in which the person signs
+
+-->
+<!ELEMENT signatory-capacity (#PCDATA)>
+<!--
+  A PKI / PKCS #7 digital signature data type
+
+-->
+<!ELEMENT enhanced-signature (pkcs7)>
+<!--
+  PKCS7 digital signature 
+
+-->
+<!ELEMENT pkcs7 EMPTY>
+<!--
+  a signature represented by electronic means                      
+-->
+<!ELEMENT electronic-signature (basic-signature | enhanced-signature)>
+<!ATTLIST electronic-signature
+	date CDATA #REQUIRED
+	place-signed CDATA #IMPLIED
+>
+<!--
+  a TIFF image of a signature                                      
+
+-->
+<!ELEMENT fax-image EMPTY>
+<!ATTLIST fax-image
+	file CDATA #REQUIRED
+>
+<!--
+  A non-PKI electronic signature
+
+-->
+<!ELEMENT basic-signature (fax-image | text-string | click-wrap)>
+<!--
+  A simple 'signature';
+  e.g., clicking a button labeled 'accept' or 'I agree'
+
+-->
+<!ELEMENT click-wrap EMPTY>
+<!--
+  A simple text string is to be used as the basic electronic signature;
+  e.g., John Doe  <text-string>/jd/</text-string>
+
+-->
+<!ELEMENT text-string (#PCDATA)>
+<!-- Send
+	Send element should be used with the Send command.
+	-->
+<!ELEMENT send (application_id)>
+<!-- Export
+	Export element should be used with the Export command.
+	-->
+<!ELEMENT export (application_id+ | (folder, application_state?, procedure?) | (application_state, folder?, procedure?) | (procedure, folder?, application_state?))>
+<!-- Remove
+	Remove element should be used with the Remove command.
+	-->
+<!ELEMENT remove (application_id+ | (folder, application_state?, procedure?) | (application_state, folder?, procedure?) | (procedure, folder?, application_state?))>
+<!-- Information
+	Information element should be used with the Information command.
+	-->
+<!ELEMENT information (application_id+ | (folder, application_state?, procedure?) | (application_state, folder?, procedure?) | (procedure, folder?, application_state?))>
+<!--<!ATTLIST information
+	info_level (basic | detailed) #REQUIRED
+>-->
+<!-- Folder element
+	In case of Import method call Folder specifies to which folder in the eOLF system the application in question will be imported. In case no such folder exists, the application will be placed in Default folder.
+	In case of Export method call all applications from specified folder of the eOLF system will be exported.
+	In case of Remove method call all applications in the specified folder of the eOLF system will be removed.
+	In case of Information method call  the information will be provided for all applications in the specified folder of the eOLF system.
+	Subfolders can be specified with a "\" separator.
+	-->
+<!ELEMENT folder (#PCDATA)>
+<!-- Application_id element
+	Application_id uniquely identifies an application in the context of eOLF File Manager.
+	List of application ids can be retrieved from the system by using the Information method call
+	In case of Sign method call, this parameter identifies the application to be signed.
+	In case of Send method call, this parameter identifies the application to be sent.
+	In case of Export method call, only one application zip will be returned if this parameter is specified.
+	In case of Remove method call, only one application will be removed from the system if this parameter is specified.
+	-->
+<!ELEMENT application_id (#PCDATA)>
+<!-- Application_state element
+	Applicant_state specifies a filtering parameter for applications in various states (such as draft, ready-to-sign, ready-to-send, sent)
+	-->
+<!ELEMENT application_state (draft | ready_to_sign | ready_to_send | sent)>
+<!-- draft element
+	-->
+<!ELEMENT draft EMPTY>
+<!-- ready_to_sign element
+	-->
+<!ELEMENT ready_to_sign EMPTY>
+<!-- ready_to_send element
+	-->
+<!ELEMENT ready_to_send EMPTY>
+<!-- sent element
+	-->
+<!ELEMENT sent EMPTY>
+<!--	Procedure element
+	Procedure specifies a filtering parameter for form-types, e.g. EP1001, EP1200, EP1038. 
+	-->
+<!ELEMENT procedure (#PCDATA)>
+<!-- Name element
+	Name is used to hold the name of the signatory (applicant or representative).
+	-->
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+	name-type (legal | natural) #IMPLIED
+>
+<!-- Employee_name element
+	Employee_name is used for specifying the name of the signing employee in case the signatory is a legal entity.
+	-->
+<!ELEMENT employee_name (#PCDATA)>

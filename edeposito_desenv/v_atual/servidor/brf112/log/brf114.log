@@ -1,0 +1,278 @@
+16-05-2013 15:54:19.066 L0 Server start 
+16-05-2013 15:56:35.041 L0 Server stop 
+16-05-2013 15:56:37.941 L0 Server start 
+16-05-2013 15:58:19.442 L0 Server stop 
+16-05-2013 15:58:26.787 L0 Server start 
+16-05-2013 16:47:34.761 L0 Server stop 
+16-05-2013 16:47:39.132 L0 Server start 
+16-05-2013 16:47:58.135 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 16:47:58.811 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 16:47:58.811 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 16:48:34.277 L0 UID = 1Logged out 
+16-05-2013 16:54:19.005 L0 Server stop 
+16-05-2013 16:54:22.050 L0 Server start 
+16-05-2013 16:54:44.872 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 16:54:45.333 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 16:54:45.333 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 16:55:59.099 L0 UID = 1Logged out 
+16-05-2013 17:57:14.378 L0 Server stop 
+16-05-2013 17:57:16.712 L0 Server start 
+16-05-2013 17:57:34.197 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 17:57:34.557 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 17:57:34.557 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 17:59:02.664 L0 UID = 1Logged out 
+16-05-2013 17:59:09.364 L0 UID = 2 Logged in 
+
+User Information: 
+2=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 17:59:09.624 L1 UID: 2 User login - Administrator, user name - Administrator . 
+16-05-2013 17:59:09.624 L1 UID: 2 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 17:59:21.651 L0 UID = 2Logged out 
+16-05-2013 18:13:56.672 L0 Server stop 
+16-05-2013 18:13:59.265 L0 Server start 
+16-05-2013 18:14:05.344 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:14:05.815 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 18:14:05.825 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:16:09.068 L0 UID = 2 Logged in 
+
+User Information: 
+2=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:16:09.318 L1 UID: 2 User login - Administrator, user name - Administrator . 
+16-05-2013 18:16:09.318 L1 UID: 2 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:16:15.848 L0 UID = 2Logged out 
+16-05-2013 18:16:27.224 L0 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:16:27.455 L1 UID: 3 User login - Administrator, user name - Administrator . 
+16-05-2013 18:16:27.455 L1 UID: 3 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:17:50.925 L0 UID = 3Logged out 
+16-05-2013 18:17:58.405 L0 UID = 4 Logged in 
+
+User Information: 
+4=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:17:58.656 L1 UID: 4 User login - Administrator, user name - Administrator . 
+16-05-2013 18:17:58.656 L1 UID: 4 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:18:09.471 L0 UID = 4Logged out 
+16-05-2013 18:18:16.551 L0 UID = 5 Logged in 
+
+User Information: 
+5=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:18:16.912 L1 UID: 5 User login - Administrator, user name - Administrator . 
+16-05-2013 18:18:16.912 L1 UID: 5 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:18:23.121 L0 UID = 5Logged out 
+16-05-2013 18:20:07.191 L0 UID = 1Logged out 
+16-05-2013 18:20:10.646 L0 Server stop 
+16-05-2013 18:20:12.839 L0 Server start 
+16-05-2013 18:20:21.311 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:20:21.751 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 18:20:21.751 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:20:39.367 L0 UID = 1Logged out 
+16-05-2013 18:27:59.782 L0 UID = 2 Logged in 
+
+User Information: 
+2=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:28:00.126 L1 UID: 2 User login - Administrator, user name - Administrator . 
+16-05-2013 18:28:00.136 L1 UID: 2 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:28:00.342 L0 UID = 2Logged out 
+16-05-2013 18:28:42.867 L0 Server stop 
+16-05-2013 18:28:45.450 L0 Server start 
+16-05-2013 18:28:49.817 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:28:50.297 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 18:28:50.297 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:29:45.917 L0 UID = 1Logged out 
+16-05-2013 18:31:25.681 L0 Server stop 
+16-05-2013 18:31:28.275 L0 Server start 
+16-05-2013 18:31:34.483 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:31:34.934 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 18:31:34.934 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:46:03.818 L0 UID = 1Logged out 
+16-05-2013 18:46:12.751 L0 Server stop 
+16-05-2013 18:46:15.324 L0 Server start 
+16-05-2013 18:46:21.573 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+16-05-2013 18:46:22.034 L1 UID: 1 User login - Administrator, user name - Administrator . 
+16-05-2013 18:46:22.044 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+16-05-2013 18:49:34.054 L0 UID = 1Logged out 
+17-05-2013 08:35:20.798 L0 Server stop 
+17-05-2013 08:35:24.213 L0 Server start 
+17-05-2013 08:35:39.836 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 08:35:40.367 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 08:35:40.367 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 08:37:30.995 L0 UID = 1Logged out 
+17-05-2013 08:37:41.416 L0 UID = 2 Logged in 
+
+User Information: 
+2=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 08:37:41.796 L1 UID: 2 User login - Administrator, user name - Administrator . 
+17-05-2013 08:37:41.796 L1 UID: 2 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 08:37:53.643 L0 UID = 2Logged out 
+17-05-2013 08:45:12.734 L0 Server stop 
+17-05-2013 08:45:16.349 L0 Server start 
+17-05-2013 08:45:29.328 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 08:45:29.839 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 08:45:29.849 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 08:46:33.941 L0 UID = 1Logged out 
+17-05-2013 08:51:46.984 L0 Server stop 
+17-05-2013 08:51:49.537 L0 Server start 
+17-05-2013 08:52:06.411 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 08:52:06.782 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 08:52:06.782 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 08:52:46.388 L0 UID = 1Logged out 
+17-05-2013 08:54:53.910 L0 Server stop 
+17-05-2013 08:54:57.846 L0 Server start 
+17-05-2013 08:55:09.473 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 08:55:10.133 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 08:55:10.149 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 08:55:44.488 L0 UID = 1Logged out 
+17-05-2013 08:58:01.882 L0 Server stop 
+17-05-2013 08:58:05.221 L0 Server start 
+17-05-2013 08:58:11.147 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 08:58:11.924 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 08:58:11.937 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 08:58:41.204 L0 UID = 1Logged out 
+17-05-2013 09:00:10.181 L0 Server stop 
+17-05-2013 09:00:13.441 L0 Server start 
+17-05-2013 09:00:22.811 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 09:00:23.438 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 09:00:23.451 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 09:00:55.727 L0 UID = 1Logged out 
+17-05-2013 09:12:12.073 L0 Server stop 
+17-05-2013 09:12:14.496 L0 Server start 
+17-05-2013 09:12:27.965 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 09:12:28.556 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 09:12:28.556 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 09:12:36.388 L0 UID = 1Logged out 
+17-05-2013 09:13:04.138 L0 Server stop 
+17-05-2013 09:13:05.700 L0 Server start 
+17-05-2013 09:13:15.223 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+17-05-2013 09:13:15.574 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 09:13:15.574 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 09:13:46.218 L0 UID = 1Logged out 
+17-05-2013 09:23:16.955 L0 Server start 
+17-05-2013 09:23:53.255 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf114\config\brf114.conf
+IP Address: 172.18.14.3
+Windows domain: INPI\jnsouza
+ 
+17-05-2013 09:23:54.039 L1 UID: 1 User login - Administrator, user name - Administrator . 
+17-05-2013 09:23:54.040 L1 UID: 1 software-version: FMMNGR1000, BRF1141010, FM_FOP0205. 
+17-05-2013 09:24:44.427 L0 UID = 1Logged out 

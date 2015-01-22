@@ -1,0 +1,65 @@
+01-07-2013 15:21:58.104 L0 Server start 
+01-07-2013 15:22:12.120 L0 Server stop 
+01-07-2013 15:23:55.432 L0 Server start 
+01-07-2013 15:24:19.698 L0 Server stop 
+01-07-2013 15:25:05.979 L0 Server start 
+01-07-2013 15:32:14.745 L0 Server stop 
+01-07-2013 15:32:17.682 L0 Server start 
+01-07-2013 15:32:27.260 L0 Server stop 
+01-07-2013 15:32:30.213 L0 Server start 
+01-07-2013 15:32:39.495 L0 Server stop 
+04-07-2013 15:15:59.741 L0 Server start 
+04-07-2013 15:16:18.273 L0 Server stop 
+04-07-2013 15:16:24.148 L0 Server start 
+04-07-2013 15:22:54.335 L0 Server stop 
+04-07-2013 15:29:34.898 L0 Server start 
+04-07-2013 15:43:37.882 L0 Server stop 
+04-07-2013 15:51:15.991 L0 Server start 
+05-07-2013 08:54:37.406 L0 Server start 
+05-07-2013 08:54:54.253 L0 Server stop 
+05-07-2013 08:54:57.628 L0 Server start 
+05-07-2013 08:55:04.956 L0 Server stop 
+05-07-2013 08:55:23.050 L0 Server start 
+05-07-2013 17:30:30.677 L0 Server start 
+08-07-2013 09:25:33.011 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf104\config\brf104.conf
+IP Address: 172.18.14.56
+Windows domain: INPI\cjunior
+ 
+08-07-2013 09:25:33.838 L1 UID: 1 User login - Administrator, user name - Administrator . 
+08-07-2013 09:25:33.838 L1 UID: 1 software-version: FMMNGR1000, BRF1041033, FM_FOP0205. 
+08-07-2013 09:26:34.425 L0 UID = 1Logged out 
+08-07-2013 10:10:50.531 L0 UID = 2 Logged in 
+
+User Information: 
+2=C:\INPI\e-Deposito\brf104\config\brf104.conf
+IP Address: 172.18.14.56
+Windows domain: INPI\cjunior
+ 
+08-07-2013 10:10:50.858 L1 UID: 2 User login - Administrator, user name - Administrator . 
+08-07-2013 10:10:50.858 L1 UID: 2 software-version: FMMNGR1000, BRF1041033, FM_FOP0205. 
+08-07-2013 10:41:40.271 L0 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf104\config\brf104.conf
+IP Address: 172.18.14.56
+Windows domain: INPI\cjunior
+ 
+08-07-2013 10:41:40.691 L1 UID: 3 User login - Administrator, user name - Administrator . 
+08-07-2013 10:41:40.691 L1 UID: 3 software-version: FMMNGR1000, BRF1041033, FM_FOP0205. 
+08-07-2013 10:50:46.726 L0 UID = 3Logged out 
+08-07-2013 10:50:46.789 L0 UID = 2Logged out 
+08-07-2013 10:50:46.804 L0 Server stop 
+08-07-2013 10:50:49.673 L0 Server start 
+08-07-2013 10:51:07.012 L0 UID = 1 Logged in 
+
+User Information: 
+1=C:\INPI\e-Deposito\brf104\config\brf104.conf
+IP Address: 172.18.14.56
+Windows domain: INPI\cjunior
+ 
+08-07-2013 10:51:07.558 L1 UID: 1 User login - Administrator, user name - Administrator . 
+08-07-2013 10:51:07.558 L1 UID: 1 software-version: FMMNGR1000, BRF1041033, FM_FOP0205. 
+08-07-2013 10:51:23.587 L0 UID = 1Logged out 

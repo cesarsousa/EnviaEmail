@@ -1,0 +1,30 @@
+19-05-2013 10:49:17.884 L1 UID: 3 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf105\config\brf105.conf
+IP Address: 192.168.1.20
+Windows domain: cesarsousa-PC\cesarsousa
+ 
+19-05-2013 10:49:18.258 L1 UID: 3 User login - Administrator, user name - Administrator . 
+19-05-2013 10:49:18.258 L1 UID: 3 software-version: FMMNGR1000, BRF1051027, FM_FOP0205. 
+19-05-2013 10:50:00.434 L1 UID: 3 UID = 3Logged out 
+07-06-2013 12:53:34.733 L1 UID: 3 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf105\config\brf105.conf
+IP Address: 10.0.2.15
+Windows domain: CESAR-B7C3D1FD3\cesar sousa
+ 
+07-06-2013 12:53:35.064 L1 UID: 3 User login - Administrator, user name - Administrator . 
+07-06-2013 12:53:35.064 L1 UID: 3 software-version: FMMNGR1000, BRF1051027, FM_FOP0205. 
+07-06-2013 12:53:35.184 L1 UID: 3 UID = 3Logged out 
+10-06-2013 13:17:36.210 L1 UID: 3 UID = 3 Logged in 
+
+User Information: 
+3=C:\INPI\e-Deposito\brf105\config\brf105.conf
+IP Address: 172.18.14.56
+Windows domain: INPI\cjunior
+ 
+10-06-2013 13:17:36.599 L1 UID: 3 User login - Administrator, user name - Administrator . 
+10-06-2013 13:17:36.599 L1 UID: 3 software-version: FMMNGR1000, BRF1051027, FM_FOP0205. 
+10-06-2013 13:17:53.567 L1 UID: 3 UID = 3Logged out 

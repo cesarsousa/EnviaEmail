@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!--
+********************************************************************************
+*  recibo-BR v1.1     MARÇO  2013                                              *
+********************************************************************************
+********************************************************************************
+* histórico de revisões                                                        *
+********************************************************************************
+07 Março 2013
+..adição dos campos opcionais (cpf-primeiro-requerente e cnpj-primeiro-requerente)
+Outubro 2012
+..lançado versão inicial como v1.0
+********************************************************************************
+-->
+
+<!ELEMENT recibo-xml (dados-inpi, dados-requerente, arquivos-enviados, dados-envio, recibo-em-pdf)>
+<!ATTLIST recibo-xml
+	lingua      CDATA  #REQUIRED
+	versao-dtd  CDATA  #IMPLIED
+	referencia  CDATA  #IMPLIED
+	status      CDATA  #IMPLIED >
+
+<!--
+******************************************************************************************************************************
+Elemento com dados do INPI
+******************************************************************************************************************************
+-->
+<!ELEMENT dados-inpi (numero-processo, numeros-gru, numero-protocolo, data-protocolo, numero-referencia-envio)>
+
+<!ELEMENT numero-processo (#PCDATA)>
+
+<!ELEMENT numeros-gru (gru*)>
+
+<!ELEMENT gru EMPTY>
+<!ATTLIST gru
+	principal  (true | false)  #REQUIRED
+	numero     CDATA           #REQUIRED
+	servico    CDATA           #REQUIRED >
+
+<!ELEMENT numero-protocolo (#PCDATA)>
+<!ELEMENT data-protocolo (#PCDATA)>
+<!ELEMENT numero-referencia-envio (#PCDATA)>
+
+<!--
+******************************************************************************************************************************
+Elemento com dados do requerente
+******************************************************************************************************************************
+-->
+<!ELEMENT dados-requerente (formulario-enviado, referencia-interna, primeiro-requerente, cpf-primeiro-requerente?, cnpj-primeiro-requerente?, quantidade-requerentes, titulo-pedido)>
+
+<!ELEMENT formulario-enviado (#PCDATA)>
+<!ELEMENT referencia-interna (#PCDATA)>
+<!ELEMENT primeiro-requerente (#PCDATA)>
+<!ELEMENT cpf-primeiro-requerente (#PCDATA)>
+<!ELEMENT cnpj-primeiro-requerente (#PCDATA)>
+<!ELEMENT quantidade-requerentes (#PCDATA)>
+<!ELEMENT titulo-pedido (#PCDATA)>
+
+<!--
+******************************************************************************************************************************
+Elemento com arquivos enviados
+******************************************************************************************************************************
+-->
+<!ELEMENT arquivos-enviados (arquivo*)>
+
+<!ELEMENT arquivo (secao*)>
+<!ATTLIST arquivo
+	doc-code             CDATA           #REQUIRED
+	tamanho              CDATA           #REQUIRED
+	nome-deposito        CDATA           #REQUIRED
+	nome-original        CDATA           #IMPLIED
+	total-paginas        CDATA           #IMPLIED
+	numero-de-desenhos   CDATA           #IMPLIED
+	desenho-para-resumo  CDATA           #IMPLIED
+	desenhos-coloridos   (true | false)  #IMPLIED
+	gru-servico          CDATA           #IMPLIED
+	gru-numero           CDATA           #IMPLIED
+	gru-principal        (true | false)  #IMPLIED
+	observacoes          CDATA           #IMPLIED >
+
+<!ELEMENT secao EMPTY>
+<!ATTLIST secao
+	doc-code          CDATA  #REQUIRED
+	primeira-pagina   CDATA  #REQUIRED
+	ultima-pagina     CDATA  #REQUIRED
+	contagem-paginas  CDATA  #REQUIRED >
+
+<!--
+******************************************************************************************************************************
+Elemento com dados do envio
+******************************************************************************************************************************
+-->
+<!ELEMENT dados-envio (responsavel-envio, assinador-pacote, metodo-envio, codigo-seguranca, resultado-final)>
+
+<!ELEMENT responsavel-envio (#PCDATA)>
+<!ELEMENT assinador-pacote (#PCDATA)>
+<!ELEMENT metodo-envio (#PCDATA)>
+<!ELEMENT codigo-seguranca (#PCDATA)>
+<!ELEMENT resultado-final (codigo, mensagem)>
+
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT mensagem (#PCDATA)>
+
+<!--
+******************************************************************************************************************************
+Elemento com o nome do arquivo de recibo em pdf
+******************************************************************************************************************************
+-->
+<!ELEMENT recibo-em-pdf (#PCDATA)>

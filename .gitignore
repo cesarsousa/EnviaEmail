@@ -1,4 +1,0 @@
-# ignorar todas as pastas svn
-.svn/
-# exceto o .gitignore
-!.gitignore
